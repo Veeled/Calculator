@@ -1,0 +1,16 @@
+body {
+    background-color: #F0EAD6;
+    display: flex;
+}
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 360px;
+    height: 560px;
+    border: solid red;
+    border-radius: 30px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}

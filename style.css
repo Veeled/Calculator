@@ -5,12 +5,54 @@ body {
 #container {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
     width: 360px;
     height: 560px;
-    border: solid red;
+    border: solid #3b3b3b;
+    background-color: #212121;
+    color: white;
     border-radius: 30px;
     margin: auto;
     position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
+}
+
+.return {
+    width: 360px;
+    height: 100px;
+    background-color: #FFFFF0;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.firstrow {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.secondrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourthrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fifthrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seven {
+    border: solid red;
+    border-radius: 30px;
 }

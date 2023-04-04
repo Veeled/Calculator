@@ -19,12 +19,20 @@ body {
 }
 
 .return {
+    display: flex;
     width: 360px;
     height: 100px;
-    background-color: #FFFFF0;
+    background-color: #bb0d0d65;
     position: relative;
     border-radius: 10px;
     
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 50px;
 }
 .firstrow {
     display: flex;
@@ -52,7 +60,3 @@ body {
     justify-content: space-evenly;
 }
 
-.seven {
-    border: solid red;
-    border-radius: 30px;
-}

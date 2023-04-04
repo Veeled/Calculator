@@ -21,14 +21,29 @@ class Calculator {
     }
   
     chooseOperation(operation) {
-      if (this.currentOperand === '') return;
-      if (this.previousOperand !== '') {
-        this.compute();
-      }
-      this.operation = operation;
-      this.previousOperand = this.currentOperand;
-      this.currentOperand = '';
-    }
+  if (this.currentOperand === '') return;
+  if (this.previousOperand !== '') {
+    this.compute();
+  }
+  switch (operation) {
+    case '+':
+      this.operation = '+';
+      break;
+    case '-':
+      this.operation = '-';
+      break;
+    case '*':
+      this.operation = '*';
+      break;
+    case '/':
+      this.operation = '÷';
+      break;
+    default:
+      return;
+  }
+  this.previousOperand = this.currentOperand;
+  this.currentOperand = '';
+}
   
     compute() {
       let computation;
